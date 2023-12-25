@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(9, 235, 122, 0.1);
+  ;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
+}
+.dark {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
